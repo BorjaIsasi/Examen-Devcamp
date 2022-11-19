@@ -1,0 +1,146 @@
+/* PAGE CONTAINER */
+
+.page-container 
+{
+    height: 720px;
+    background: rgb(10,10,12);
+    background: linear-gradient(94deg, rgba(10,10,12,1) 0%, rgba(10,10,12,1) 0%, rgba(10,10,12,1) 7%, rgba(43,45,50,1) 22%, rgba(10,10,12,1) 96%);
+}
+
+.page-container > .content-wrapper 
+{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+
+.page-container > .content-wrapper > .text-button-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.page-container > .content-wrapper > .text-button-wrapper > .text-wrapper
+{
+    margin-top: 10px;
+}
+
+.page-container > .content-wrapper > .text-button-wrapper > .text-wrapper > .text1
+{
+    font-size: 3.3em;
+    color: rgb(180, 180, 180);
+    font-weight: lighter;
+    line-height: 1.2;   
+}
+
+.page-container > .content-wrapper > .text-button-wrapper > .text-wrapper > .text1 strong
+{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.page-container > .content-wrapper > .text-button-wrapper > .text-wrapper > .text1 i
+{
+    color: orange;
+    font-size: 1.1em;
+}
+
+.page-container > .content-wrapper > .text-button-wrapper > .text-wrapper > .text2 
+{
+    font-size: 2.65em;
+    color: rgba(142,152,164,255);
+    font-weight:400;
+    line-height: 1.6;
+    margin-top: 35px;   
+}
+
+.page-container > .content-wrapper > .text-button-wrapper > .button-wrapper
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.page-container > .content-wrapper > .text-button-wrapper > .button-wrapper > .box-1 button
+{
+    background-color: rgba(75,206,121,255);
+    border: none;
+    font-size: 2.8em;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 21px 40px;
+    margin-right: 20px; 
+    transition: 0.5s;
+}
+
+.page-container > .content-wrapper > .text-button-wrapper > .button-wrapper > .box-1 button:hover
+{
+    background-color: rgb(45, 131, 72) ;
+    color:white;
+}
+
+.page-container > .content-wrapper > .text-button-wrapper > .button-wrapper > .box-2 button
+{
+    background-color: rgb(7, 7, 7);
+    border: none;
+    font-size: 2.8em;
+    color: white;   
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 19px 35px;  
+    transition: 0.5s;
+}
+
+.page-container > .content-wrapper > .text-button-wrapper > .button-wrapper > .box-2 button:hover
+{
+    background-color: rgb(50, 50, 50);
+}
+
+.page-container > .content-wrapper > .capture-slogan-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.page-container > .content-wrapper > .capture-slogan-wrapper > .slogan 
+{
+    font-size: 1.8em;
+    color: white; 
+    font-weight: bold; 
+    letter-spacing: 1px;
+    margin-left: 15px;    
+}
+
+.page-container > .content-wrapper > .capture-slogan-wrapper > .slogan a
+{
+    color: rgba(86,199,245,255);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.page-container > .content-wrapper > .capture-slogan-wrapper > .slogan a:hover
+{
+    color: rgb(184, 234, 255);
+}
+
+.page-container > .content-wrapper > .capture-slogan-wrapper > .capture
+{
+    margin-bottom:10px;
+}
+
+.page-container > .content-wrapper > .capture-slogan-wrapper > .capture img
+{
+    width: auto;
+    height: 610px;
+    filter:drop-shadow(-5px 5px 13px rgb(12, 12, 13));
+}
+

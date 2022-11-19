@@ -1,0 +1,44 @@
+/* FOOTER */
+.footer 
+{
+    height: 10px;
+}
+
+.footer > .link-wrapper
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    transition: 0.5s;
+}
+
+
+.footer > .link-wrapper > .link
+{
+    text-align: center;
+    border: 2px solid gray;
+    background-color: rgba(54,56,63,255);
+    padding: 15px;
+    font-size: 2em;
+    text-decoration: none;
+    transition:all 0.5s;
+}
+
+.footer > .link-wrapper > .link a
+{
+    color: white;
+    text-decoration: none;  
+}
+
+.footer > .link-wrapper > .link:hover 
+{
+    background-color: rgb(136, 136, 136);
+    border: 2px solid hsl(139deg 59% 55%);
+}
+
+.footer > .link-wrapper > .link b
+{
+    font-family: 'Passion One', cursive;
+    font-size: 1.5em;
+    font-weight:normal;
+}
+

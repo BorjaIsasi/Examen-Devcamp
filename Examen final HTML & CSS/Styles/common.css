@@ -1,0 +1,8 @@
+/* Common styles */
+body 
+{
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    background-color: rgba(25,26,29,255);
+}
